@@ -1,0 +1,5 @@
+helm show values bitnami/nginx > values.yaml
+
+
+
+helm upgrade nginx0917 bitnami/nginx -f values.yaml
