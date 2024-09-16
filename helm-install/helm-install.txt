@@ -2,3 +2,11 @@
 
 brew install helm
 helm version
+
+
+
+
+
+
+helm repo list
+helm repo update
