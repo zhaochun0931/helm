@@ -5,7 +5,7 @@ helm install <release-name> bitnami/nginx
 
 helm install nginx0916 bitnami/nginx
 
-
+helm uninstall nginx0916
 
 
 
