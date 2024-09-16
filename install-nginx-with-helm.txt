@@ -1,5 +1,4 @@
 helm search repo bitnami/nginx
-helm show values bitnami/nginx > values.yaml
 
 
 
