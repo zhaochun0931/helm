@@ -2,3 +2,22 @@ helm search repo bitnami/nginx
 
 
 helm install <release-name> bitnami/nginx
+
+helm install nginx0916 bitnami/nginx
+
+
+
+
+
+
+
+
+helm list
+helm status nginx0916
+
+
+
+
+
+
+helm upgrade nginx0916 bitnami/nginx --set service.type=NodePort
