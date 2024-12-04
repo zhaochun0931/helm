@@ -1,2 +1,13 @@
+- release
+- repository
+- chart
+
+
 helm repo list
 helm repo update
+
+
+
+
+# list the release
+helm list
