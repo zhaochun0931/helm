@@ -3,11 +3,23 @@
 - chart
 
 
+In Helm, a chart is a package that contains all the necessary configurations to deploy an application or a set of related services onto a Kubernetes cluster. 
+
+
+
+
 helm repo list
 helm repo update
 
 
 
 
-# list the release
+# list the release and chart
 helm list
+
+
+$ helm list
+NAME      	NAMESPACE	REVISION	UPDATED                             	STATUS  	CHART                           	APP VERSION
+my-release	default  	1       	2024-12-03 16:34:36.049113 +0800 CST	deployed	rabbitmq-cluster-operator-4.3.28	2.11.0
+myrabbitmq	default  	1       	2024-12-03 16:45:35.903233 +0800 CST	deployed	rabbitmq-15.1.0                 	4.0.4
+$
