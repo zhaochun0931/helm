@@ -70,3 +70,11 @@ WARNING: There are "resources" sections in the chart not set. Using "resourcesPr
 $
 
 
+
+
+
+# Fetch Deployed Manifest
+helm get manifest <release-name>
+
+
+
